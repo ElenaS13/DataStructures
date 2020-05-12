@@ -13,6 +13,10 @@ public class Application {
 		System.out.println(tree.findMin());
 		System.out.println(tree.findMax());
 		
+		System.out.println(tree.remove(10)); // print true
+		
+		System.out.println(tree.findMin().key); // 15
+		
 		
 
 	}
