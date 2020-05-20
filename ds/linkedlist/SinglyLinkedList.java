@@ -1,6 +1,6 @@
 package ds.linkedlist;
 
-public class SinglyLinkedList {
+public class SinglyLinkedList{
 	
 	// represents a node of the singly linked list
 	class Node {
@@ -25,8 +25,8 @@ public class SinglyLinkedList {
 	// addNode() will add a new node to the list
 	
 	public void addNode(int data) {
-		// create a new node 
 		
+		// create a new node 
 		Node newNode = new Node(data);
 		
 		// check if the list is empty 
