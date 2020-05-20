@@ -48,8 +48,8 @@ public class SinglyLinkedList{
 	
 	// display() will display all the nodes present in the list 
 	public void display() {
-		// Node current will point to the head
 		
+		// Node current will point to the head
 		Node current = head;
 		
 		if(head == null) {
